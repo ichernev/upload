@@ -33,8 +33,8 @@ import org.slf4j.LoggerFactory;
 @Path("/services")
 public class UploadService {
 
-	private static final java.nio.file.Path inDir = Paths.get("/srv/fixed/in");
-	private static final java.nio.file.Path tmpDir = Paths.get("/srv/fixed/tmp");
+	private static final java.nio.file.Path inDir = Paths.get("/Users/iskren/src/upload/in");
+	private static final java.nio.file.Path tmpDir = Paths.get("/Users/iskren/src/upload/tmp");
 
 	private static final Logger logger = LoggerFactory.getLogger(UploadService.class);
 
