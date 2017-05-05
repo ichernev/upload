@@ -118,6 +118,10 @@
 							<mainClass>edu.aubg.server.MyServer</mainClass>
 							<id>my-server</id>
 						</program>
+						<program>
+							<mainClass>edu.aubg.client.MyClient</mainClass>
+							<id>my-client</id>
+						</program>
 					</programs>
 				</configuration>
 			</plugin>
